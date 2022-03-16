@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style-sign-up.css">
+    <title>Sign up</title>
+</head>
+<body>
+<div class="wrapper ">
+    <!--header-->
+    <header class="header">
+        <div class="header__container  _container">
+            <a href="" class="header__logo">
+                <img src="img/Logo/Cofico.svg" alt="Cofico">
+            </a>
+            <nav class="header__menu menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href="/" class="menu__link">Home</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="/about" class="menu__link">About Us</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="/blog" class="menu__link">Blog</a> <!-- Shop -->
+                    </li>
+                    <li class="menu__item">
+                        <a href="" class="menu__link">Sign in</a>
+                    </li>
+                </ul>
+
+            </nav>
+            <!--main-block__image-->
+            <div class="main-block__image _ibj">
+                <img src="img/main/1.svg" alt="cover">
+
+                <div class="main-block__image_inside _ibj">
+                    <div class="image_inside_box">
+                        <div class="image_inside_box-inside _ibj ">
+                            <img src="img/main/Coffee-Cup-PNG-Image-1024x962-1.png" alt="cover">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </header>
+    <!--main-->
+    <main class="page">
+
+        <!--main-block-->
+
+        <div class="page__main-block main-block">
+            <div class="main-block__container _container">
+                <div class="main-block__body">
+
+
+                    <h1 class="main-block__title">
+                        Sign up
+                    </h1>
+
+
+                    <div class="sign-up_body">
+                        <form action="/sign-up" method="post" enctype="multipart/form-data">
+                            <p><input class="sign-up_input" type="text" placeholder="First Name" maxlength="25" value=""  name="user_first_name" ></p>
+                            <p><input class="sign-up_input" type="text" placeholder="Last Name" maxlength="25" value=""  name="user_last_name" ></p>
+                            <p><input class="sign-up_input" type="text" placeholder="Email Address" maxlength="25" value=""  name="user_email_address" ></p>
+                            <p><input class="sign-up_input" type="password" placeholder="Password" maxlength="25" value=""  name="user_password" ></p>
+                            <button class="sign-up_button" type="submit">CREATE ACCOUNT</button>
+                        </form>
+                    </div>
+
+
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+
+
+    </main>
+    <!--footer-->
+    <footer class="footer">
+
+        <div class="footer__top">
+            <div class="footer__container _container">
+                <div class="footer__row">
+
+                    <div class="footer__column">
+
+
+                        <a href="" class="footer__logo">
+                            <img src="img/Logo/Cofico.svg" alt="Cofico">
+                        </a>
+
+                        <div class="footer__text">
+                            Sophisticated simplicity for the
+                            <br> independent mind.
+                        </div>
+
+                        <div class="footer__social _social">
+                            <a href="" class="social__item">
+                                <img src="img/footer/social/1.svg" alt="social 1">
+                            </a>
+                            <a href="" class="social__item">
+                                <img src="img/footer/social/2.svg" alt="social 2">
+                            </a>
+                            <a href="" class="social__item">
+                                <img src="img/footer/social/3.svg" alt="social 3">
+                            </a>
+                            <a href="" class="social__item">
+                                <img src="img/footer/social/4.svg" alt="social 4">
+                            </a>
+                            <a href="" class="social__item">
+                                <img src="img/footer/social/5.svg" alt="social 4">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="footer__column">
+                        <div class="footer__lable">Categories</div>
+                        <nav class="footer__menu menu-footer">
+                            <ul class="menu-footer__list">
+
+                                <li class="menu-footer__item">
+                                    <a href="" class="menu-footer__link">Tea</a>
+                                </li>
+                                <li class="menu-footer__item">
+                                    <a href="" class="menu-footer__link">Casual Coffee</a>
+                                </li>
+                                <li class="menu-footer__item">
+                                    <a href="" class="menu-footer__link">Foods</a>
+                                </li>
+                                <li class="menu-footer__item">
+                                    <a href="" class="menu-footer__link">Coffee</a>
+                                </li>
+
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="footer__column">
+                        <div class="footer__lable">Help & Infomation</div>
+                        <nav class="footer__menu menu-footer">
+                            <ul class="menu-footer__list">
+
+                                <li class="menu-footer__item">
+                                    <a href="" class="menu-footer__link">Help Center</a>
+                                </li>
+                                <li class="menu-footer__item">
+                                    <a href="" class="menu-footer__link">Privacy Policy</a>
+                                </li>
+                                <li class="menu-footer__item">
+                                    <a href="" class="menu-footer__link">Terms & Conditions</a>
+                                </li>
+                                <li class="menu-footer__item">
+                                    <a href="" class="menu-footer__link">Products Return</a>
+                                </li>
+                                <li class="menu-footer__item">
+                                    <a href="" class="menu-footer__link">Wholesale Policy</a>
+                                </li>
+
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="footer__column">
+                        <div class="footer__lable">Contact us</div>
+                        <nav class="footer__contacts contacts-footer">
+
+                            <div class="contsct_item">
+                                <div class="contsct_img">
+                                    <img src="img/footer/contsct/1.svg" alt="social 1">
+                                </div>
+                                <a href="mailto:contact@example.com" class="contacts-footer__item contacts-footer__item_email">
+                                    contact@example.com
+                                </a>
+                            </div>
+
+                            <div class="contsct_item">
+                                <div class="contsct_img">
+                                    <img src="img/footer/contsct/2.svg" alt="social 2">
+                                </div>
+                                <a href="tel:+38099****550" class="contacts-footer__item contacts-footer__item_phone">
+                                    +38 099-***-*5-50
+                                </a>
+                            </div>
+
+                            <div class="contsct_item">
+                                <div class="contsct_img">
+                                    <img src="img/footer/contsct/3.svg" alt="social 3">
+                                </div>
+                                <a href="" class="contacts-footer__item contacts-footer__item_map">
+                                    View on Google map
+                                </a>
+                            </div>
+
+                        </nav>
+                    </div>
+                </div>
+                <hr align="center" width="100%" size="3" color="#8A6D4F" />
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+            <div class="footer__container _container">
+                <div class="footer__bottom-2-body">
+                    <div class="footer_bottom_text">
+                        COPYRIGHT © 2021. All Rights Reserved By Cofico
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</div>
+</body>
+</html>
